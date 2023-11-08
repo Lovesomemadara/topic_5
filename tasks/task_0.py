@@ -1,5 +1,5 @@
 colors = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
 
-...  # Ваш код
+colors[0], colors[-1] = colors[-1], colors[0]
 
 print(colors)

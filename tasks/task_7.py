@@ -1,5 +1,13 @@
-student_info = {"name": "Анна", "age": 20, "group_number": "А101"}
+student_info = {
+    "name": "Анна",
+    "age": 20,
+    "group_number": "А101"
+}
 
-keys_set = ...  # Ваш код
+# Выявление ключей из словаря
+keys_set = dict.keys(student_info)
 
-print(keys_set)
+# Преобразование списка в множество
+ref_set = set(keys_set)
+
+print(ref_set)
