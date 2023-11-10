@@ -1,6 +1,6 @@
-numbers = [12, 45, 0.34711, 67, 89, 34, 55.632781, 78.9395]
+numbers: list = [12, 45, 0.34711, 67, 89, 34, 55.632781, 78.9395]
 
 # Вычисление среднего значения с округлением до 1 знака после запятой
-mean: float = float(round((sum(numbers) / len(numbers)), 1))
+mean: float = round((sum(numbers) / len(numbers)), 1)
 
 print(f"Среднее значение: {mean}")

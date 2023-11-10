@@ -6,6 +6,6 @@ num_min: str = min(nums)
 num_max: str = max(nums)
 
 print(
-    "Минимальный символ:", num_min, "\n"
-    "Максимальный символ:", num_max
+    "Минимальный символ:", num_min,
+    "\nМаксимальный символ:", num_max
 )
